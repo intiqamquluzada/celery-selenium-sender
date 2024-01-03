@@ -7,6 +7,9 @@ from selenium.webdriver.support.ui import WebDriverWait
 from django.core.mail import send_mail
 from django.conf import settings
 
+"""
+GETTING THE REAL CURRENCY IN EVERY MINUTES
+"""
 
 @shared_task
 def get_currency():
